@@ -36,4 +36,4 @@ def test_message_disappeared_after_adding_product_to_basket(browser):
     page = ProductPage(browser, link)
     page.open()
     page.add_product_to_cart()
-    page.should_dissapear_of_success_message()
+    page.should_disappear_of_success_message()
